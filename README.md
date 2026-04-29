@@ -22,19 +22,19 @@ A high-performance audio transformation tool that leverages **FFmpeg** for seaml
 ## ⚙️ Installation & Usage
 
 ### 1. Setup Environment
-```bash
+
 # Clone the repository
-git clone [https://github.com/Dev-patel-18-account/Video_converter.git](https://github.com/Dev-patel-18-account/Video_converter.git)
-cd Video_converter
+git clone [https://github.com/Dev-patel-18-account/Audio_converter.git](https://github.com/Dev-patel-18-account/Audio_converter.git)
+cd Audio_converter
 
 # Install dependencies
 pip install numpy
 
-2. Configure FFmpeg
+### 2. Configure FFmpeg
 Ensure the FFMPEG_PATH in audio_change.py points to your local installation. The default is set to:
 Path("ffmpeg") / "bin" / "ffmpeg.exe"
 
-3. Run the Tool
+### 3. Run the Tool
 # Run the application
 python audio_change.py
 Simply enter a local file path (e.g., C:/music.mp3) or a direct audio URL when prompted.
@@ -45,5 +45,7 @@ audio_change.py - Core logic, signal processing, and user interface.
 requirements.txt - Minimal dependency list.
 
 .gitignore - Pre-configured to exclude virtual environments and temporary audio artifacts.
+
 __________________________________________________________________________________________________
 Note to Reviewers: This project is structured to demonstrate clean code separation, professional documentation standards, and an understanding of low-level audio manipulation.
+```bash
